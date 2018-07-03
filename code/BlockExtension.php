@@ -5,7 +5,9 @@ class BlockExtension extends DataExtension
 
 	public function Link()
 	{
-		return Controller::join_links(PresentationHolder::get()->first()->Link(), 'show', $this->owner->ID);
+		$presenter = PresentationHolder::get()->first();
+
+		return ($presenter) ? Controller::join_links(PresentationHolder::get()->first()->Link(), 'show', $this->owner->ID) : null;
 	}
 
 	public function BlueLink(){
