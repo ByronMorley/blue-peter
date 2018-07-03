@@ -19,7 +19,7 @@
     "rgb-software/silverstripe-booteek":"^1.0"
   },
   "extra": {
-    "installer-name": "aqua",
+    "installer-name": "blue-peter",
     "screenshots": [
       "relative/path/screenshot1.png",
       "http://myhost.com/screenshot2.png"
