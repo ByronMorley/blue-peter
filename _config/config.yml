@@ -1,0 +1,10 @@
+---
+Name: bluepeter
+After: 'framework/*','cms/*'
+---
+Section:
+  extensions:
+    - BlockExtension
+BlockPage:
+  extensions:
+    - BlockPageExtension

@@ -1,0 +1,120 @@
+@import "../_core/_config.less";
+
+/*-----------------------------------------
+          PRESENTATION.LESS
+-----------------------------------------*/
+
+.presentationholder {
+    background-color: @light-color;
+    background-color: @backwash;
+}
+
+.blue-peter {
+
+    padding:0 100px;
+
+    @media @SM, @XS, @XXS {
+        padding:0 10px;
+    }
+
+    .title-pane {
+        height: 60px;
+        .section {
+            height: 60px;
+        }
+        h1 {
+            padding: 0;
+            color: @dark-grey;
+        }
+        .icon-rack {
+            i {
+                width:40px;
+                height:40px;
+            }
+
+        }
+
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .typography {
+
+        p, span, li, a {
+            font-size: 24px;
+            line-height: normal;
+        }
+
+        h1 {
+            font-size: 38px;
+            line-height: normal;
+        }
+        h2 {
+            font-size: 32px;
+        }
+
+        .block.text-block {
+            h2 {
+                font-size:28px;
+            }
+        }
+
+        .icon-rack {
+            & > li {
+                float: left;
+                margin-left: 20px;
+                i {
+
+                    line-height: normal;
+                    text-align: center;
+                    font-size: 32px;
+                    display: inline-block;
+                    color: @dark-color;
+
+                    &:hover {
+                        color: @mid-grey;
+                        text-decoration: none;
+                    }
+                }
+
+            }
+        }
+    }
+    .heading {
+
+        font-weight: 700;
+
+        &.main {
+            //border-bottom:1px solid @light-grey;
+
+            font-size: 50px;
+            i {
+                font-size: 36px;
+            }
+            * {
+                font-size: inherit;
+            }
+        }
+        &.sub {
+
+            padding: 0;
+            font-size: 36px;
+            * {
+                font-size: inherit;
+            }
+            i {
+                font-size: 36px;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                border: none;
+                margin-bottom: 10px;
+                line-height:50px;
+            }
+
+        }
+    }
+
+}
+

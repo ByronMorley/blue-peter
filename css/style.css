@@ -1,0 +1,141 @@
+/*--------------------------- CONFIG.LESS --------------------------------*/
+/*  1170px  */
+/*  1170px  */
+/*  970px   */
+/*  750px   */
+/*  100%    */
+/*  100%    */
+
+/*--------------------------- CONFIG.LESS --------------------------------*/
+/*  1170px  */
+/*  1170px  */
+/*  970px   */
+/*  750px   */
+/*  100%    */
+/*  100%    */
+/*-----------------------------------------
+          MENU.LESS
+-----------------------------------------*/
+.bp-main-title {
+  color: #000000;
+}
+.bp-sub-title {
+  color: #9D9D9D;
+}
+.bp-blockholder {
+  margin-bottom: 20px;
+}
+.bp-blockholder .upper-section {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9D9D9D;
+  margin-bottom: 10px;
+}
+.bp-blockholders h2 {
+  color: #232323;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/*--------------------------- CONFIG.LESS --------------------------------*/
+/*  1170px  */
+/*  1170px  */
+/*  970px   */
+/*  750px   */
+/*  100%    */
+/*  100%    */
+/*-----------------------------------------
+          PRESENTATION.LESS
+-----------------------------------------*/
+.presentationholder {
+  background-color: #FFFFFF;
+  background-color: #ECECEC;
+}
+.blue-peter {
+  padding: 0 100px;
+}
+@media only screen and (min-width: 769px) and (max-width: 991px), only screen and (min-width: 480px) and (max-width: 768px), only screen and (max-width: 479px) {
+  .blue-peter {
+    padding: 0 10px;
+  }
+}
+.blue-peter .title-pane {
+  height: 60px;
+}
+.blue-peter .title-pane .section {
+  height: 60px;
+}
+.blue-peter .title-pane h1 {
+  padding: 0;
+  color: #232323;
+}
+.blue-peter .title-pane .icon-rack i {
+  width: 40px;
+  height: 40px;
+}
+.blue-peter .container {
+  padding: 0 10px;
+}
+.blue-peter .typography p,
+.blue-peter .typography span,
+.blue-peter .typography li,
+.blue-peter .typography a {
+  font-size: 24px;
+  line-height: normal;
+}
+.blue-peter .typography h1 {
+  font-size: 38px;
+  line-height: normal;
+}
+.blue-peter .typography h2 {
+  font-size: 32px;
+}
+.blue-peter .typography .block.text-block h2 {
+  font-size: 28px;
+}
+.blue-peter .typography .icon-rack > li {
+  float: left;
+  margin-left: 20px;
+}
+.blue-peter .typography .icon-rack > li i {
+  line-height: normal;
+  text-align: center;
+  font-size: 32px;
+  display: inline-block;
+  color: #000000;
+}
+.blue-peter .typography .icon-rack > li i:hover {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+.blue-peter .heading {
+  font-weight: 700;
+}
+.blue-peter .heading.main {
+  font-size: 50px;
+}
+.blue-peter .heading.main i {
+  font-size: 36px;
+}
+.blue-peter .heading.main * {
+  font-size: inherit;
+}
+.blue-peter .heading.sub {
+  padding: 0;
+  font-size: 36px;
+}
+.blue-peter .heading.sub * {
+  font-size: inherit;
+}
+.blue-peter .heading.sub i {
+  font-size: 36px;
+}
+.blue-peter .heading.sub h1,
+.blue-peter .heading.sub h2,
+.blue-peter .heading.sub h3,
+.blue-peter .heading.sub h4,
+.blue-peter .heading.sub h5,
+.blue-peter .heading.sub h6 {
+  border: none;
+  margin-bottom: 10px;
+  line-height: 50px;
+}
