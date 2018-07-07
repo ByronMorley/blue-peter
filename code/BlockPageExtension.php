@@ -11,7 +11,8 @@ class BlockPageExtension extends DataExtension
 	public function BlueLink()
 	{
 		$section = $this->owner->Sections()->first();
+		$presenter = PresentationHolder::get()->first();
 
-		return $section ? Controller::join_links(PresentationHolder::get()->first()->Link(), 'show', $section->ID) : "javascript:void(0)";
+		return ($section && $presenter) ? Controller::join_links($presenter->Link(), 'show', $section->ID) : "javascript:void(0)";
 	}
 }
