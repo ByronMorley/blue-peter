@@ -23,11 +23,11 @@ class PresentationHolder_Controller extends Page_Controller
 
 			$Page = $block->Page();
 			$blocklist = $Page->Sections();
-			$blocks = $this->getBlocks();
+			$blockPages = $this->getBlockPages();
 
 			return array(
-				'NextBlock' => $block->nextBlock($blocks),
-				'PreviousBlock' => $block->previousBlock($blocks),
+				'NextBlock' => $block->nextBlock($blockPages),
+				'PreviousBlock' => $block->previousBlock($blockPages),
 				'PageTitle' => $Page->Title,
 				'BlockList' => $blocklist,
 				'Block' => $block,
@@ -35,6 +35,4 @@ class PresentationHolder_Controller extends Page_Controller
 			);
 		}
 	}
-
-
 }
