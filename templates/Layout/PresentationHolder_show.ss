@@ -25,7 +25,7 @@
 		</div>
 		<div class="d-flex block pagination-block">
 			<ul class="pagination-lg">
-				<li class="page-item"><a class="page-link" href="$Block.PresentationLink">Back to Menu</a></li>
+				<li class="page-item"><a class="page-link" href="$Block.PresentationLink"><%t Menu.BACK_TO_MENU %></a></li>
 			</ul>
 			<ul class="pagination pagination-lg mx-right">
                 <% if $BlockList %>

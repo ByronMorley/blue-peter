@@ -10832,7 +10832,7 @@ var Aqua = function () {
         key: 'updateScore',
         value: function updateScore() {
             var scoreElem = document.createElement('span');
-            scoreElem.innerHTML = "Score: " + this.score + "/" + this.scoreCap;
+            scoreElem.innerHTML =  this.translations.score +": "  + this.score + "/" + this.scoreCap;
             this.scoreSelector.innerHTML = "";
             this.scoreSelector.appendChild(scoreElem);
             this.finalScore.innerHTML = "";
