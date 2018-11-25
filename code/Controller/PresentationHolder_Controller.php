@@ -22,7 +22,7 @@ class PresentationHolder_Controller extends Page_Controller
 		} else {
 
 			$Page = $block->Page();
-			$blocklist = $Page->Sections();
+			$blocklist = $Page->Sections()->exclude('ClassName', 'SectionActivityBlock');
 			$blockPages = $this->getBlockPages();
 
 			return array(

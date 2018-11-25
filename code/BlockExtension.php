@@ -30,7 +30,7 @@ class BlockExtension extends DataExtension
 	public function NextBlock($blockPages)
 	{
 
-		$blocks = Section::get()->filter('PageID', $this->owner->PageID);
+		$blocks = Section::get()->filter('PageID', $this->owner->PageID)->exclude('ClassName', 'SectionActivityBlock');
 		$block = null;
 
 		$currentPos = $this->getCurrentPosition($blocks, $this->owner->ID);
@@ -52,7 +52,7 @@ class BlockExtension extends DataExtension
 
 	public function PreviousBlock($blockPages)
 	{
-		$blocks = Section::get()->filter('PageID', $this->owner->PageID);
+		$blocks = Section::get()->filter('PageID', $this->owner->PageID)->exclude('ClassName', 'SectionActivityBlock');
 		$block = null;
 
 		$currentPos = $this->getCurrentPosition($blocks, $this->owner->ID);
